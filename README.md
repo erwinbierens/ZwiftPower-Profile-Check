@@ -13,6 +13,11 @@ Results are written to a CSV file.
 - `.env` file support to keep credentials safe.
 
 ---
+## License
+
+Free to use for personal analysis. Please respect the Zwift and ZwiftPower Terms of Service: data is for personal use only and not for commercial purposes.
+
+---
 
 ## Setup
 
@@ -48,7 +53,3 @@ klaas@example.com,Klaas,Visser,BE,654321
 
 ## Run the script
 python3 ZwiftPower.py
-
-## License
-
-Free to use for personal analysis. Please respect the ZwiftPower Terms of Service: data is for personal use only and not for commercial purposes.
