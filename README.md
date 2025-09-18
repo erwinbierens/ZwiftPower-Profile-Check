@@ -29,27 +29,32 @@ Put the files in a folder, e.g. `~/zwiftcheck`.
 cd ~/zwiftcheck
 python3 -m venv venv
 source venv/bin/activate
+```
 
-
-## Installation
-### Install dependencies
+### 3. Install Requirements 
+```bash
 python3 -m pip install -r requirements.txt
+```
 
-## Configuration
-### Store Zwift credentials in .env
-
+### 4. Configuration
+Store Zwift credentials in .env
 Create a .env file in the project folder:
 
+```bash
 ZWIFT_USER=your_email@example.com
 ZWIFT_PASS=your_password
+```
 
-### Prepare the input CSV
+### 5. Prepare the input CSV
 
 Create a file zwift_ids.csv:
-
+```bash
 Email,FirstName,LastName,Country,ZwiftID
 piet@example.com,Piet,Jansen,NL,123456
 klaas@example.com,Klaas,Visser,BE,654321
+```
 
 ## Run the script
+```bash
 python3 ZwiftPower.py
+```
