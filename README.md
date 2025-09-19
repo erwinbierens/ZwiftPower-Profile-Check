@@ -58,3 +58,8 @@ klaas@example.com,Klaas,Visser,BE,654321
 ```bash
 python3 ZwiftPower.py
 ```
+
+## Deactivate Virtual Environment
+```bash
+deactivate
+```
